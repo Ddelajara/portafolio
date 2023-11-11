@@ -11,11 +11,13 @@
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
-  font-size: 0.85rem;
+  font-size: 1.45rem;
   max-width: var(--max-width);
   width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
+  z-index: 6;
+  background-color: #C6DBF6;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
 }
 
 .description a {
@@ -27,11 +29,14 @@
 
 .description p {
   position: relative;
-  margin: 0;
+  margin: 1rem;
   padding: 1rem;
   background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.4);
   border-radius: var(--border-radius);
+  font-size: xx-large;
+  color:darkblue;
+  
 }
 
 .code {
@@ -44,6 +49,7 @@
   grid-template-columns: repeat(4, minmax(25%, auto));
   max-width: 100%;
   width: var(--max-width);
+  gap: 10px;
 }
 
 .card {
@@ -106,11 +112,12 @@
 
 .logo {
   position: relative;
+  border-radius: 50%;
 }
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
-    background: rgba(var(--card-rgb), 0.1);
+    background: rgba(var(--card-rgb), 0.9);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
   }
 
@@ -200,6 +207,21 @@
     );
     z-index: 1;
   }
+
+  .authorContainer {
+    display: flex;
+    align-items: center;
+    font-size:small;
+    flex-direction: column; 
+    text-align: center; /* Alinea el contenido al centro */
+    margin-bottom: 40px;
+  
+  }
+
+   .authorText {
+    align-items: center;
+    text-align: center;
+  }
 }
 
 /* Tablet and Smaller Desktop */
@@ -226,4 +248,36 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.authorContainer {
+  display: flex;
+  align-items: center;
+  max-width: var(--max-width);
+}
+
+.authorText {
+  /*margin-left: 50px;  Ajusta el margen según sea necesario */
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.authorText h1 {
+  color:chocolate; 
+}
+
+.cardBG1 {
+  background-color: rgb(183, 215, 183);
+
+}
+.cardBG2 {
+  background-color: #C6DBF6;
+}
+
+.cardBG3 {
+  background-color:rgb(240, 207, 89)
+}
+
+.cardBG4 {
+  background-color:rgb(151, 182, 193);
 }
