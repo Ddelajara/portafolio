@@ -281,3 +281,57 @@
 .cardBG4 {
   background-color:rgb(151, 182, 193);
 }
+
+.circleNumber {
+  width: 46px; /* Diámetro del círculo */
+  border-radius: 50%;
+  background-color: orange; /* Color del círculo */
+  color: white; /* Color del texto */
+  text-align: center;
+  line-height: 46px; /* Alineación vertical del texto en el círculo */
+  margin: 0; /* Elimina el margen predeterminado */
+}
+
+
+.card_Center {
+  display: flex;
+  flex-direction: column; 
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+  text-align: center;
+}
+
+.card_Center span {
+  display: inline-block;
+  transition: transform 200ms;
+}
+
+.card_Center h2 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.card_Center p {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 30ch;
+}
+
+.card_Center h1h {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  width: 46px; 
+  height: 46px;
+  border-radius: 50%;
+  background-color: orange; /* Color del círculo */
+  color: white; /* Color del texto */
+  text-align: center;
+  line-height: 16px; /* Alineación vertical del texto en el círculo */
+ 
+}

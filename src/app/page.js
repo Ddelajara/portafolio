@@ -51,15 +51,15 @@ export default function Home() {
 
       <div className={styles.grid}>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://www.linkedin.com/in/daniel-de-la-jara-5b66a5155/"
           className={`${styles.card} ${styles.cardBG1}`}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Perfil
+            Linked In
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>habilidades, experiencia y competencias laborales</p>
         </a>
 
         <a
@@ -69,7 +69,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Competencias
+            Trayectoria
           </h2>
           <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
         </a>
