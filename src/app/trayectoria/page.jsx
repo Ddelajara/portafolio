@@ -47,7 +47,7 @@ const Trayectoria = () => {
               Bco Edwards <span>-&gt;</span>
             </h2>
             <p><strong>1995 - 2000</strong></p>
-            <p>Analista de Desarrollo Software Core Bancario</p>
+            <p>Analista de Desarrollo Software Core Bancario Comex</p>
           </a>
   
           <a
@@ -112,7 +112,6 @@ const Trayectoria = () => {
               Entel <span>-&gt;</span>
             </h2>
             <p> <strong>2012 - 2017</strong></p>
-            <p>Sub Gerente de Ingenieria TI</p>
             <p>Sub Gerente de Adm y Soporte</p>
           </a>
         </div>
@@ -150,7 +149,7 @@ const Trayectoria = () => {
             rel="noopener noreferrer"
           >
             <h2>
-              Proyectos
+              Proyectos <span>-&gt;</span>
             </h2>
             <p>Explore starter templates for Next.js.</p>
           </a>
