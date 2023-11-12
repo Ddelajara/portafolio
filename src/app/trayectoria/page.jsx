@@ -115,8 +115,6 @@ const Trayectoria = () => {
             <p>Sub Gerente de Adm y Soporte</p>
           </a>
 
-
-
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             className={styles.card_Center}
@@ -126,7 +124,7 @@ const Trayectoria = () => {
             <div>
             <Image
                 src="/image/numero-5.png"
-                alt="Number one"
+                alt="Number five"
                 width={60}
                 height={60}
                 priority
@@ -140,6 +138,27 @@ const Trayectoria = () => {
           </a>
 
 
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            className={styles.card_Center}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div>
+            <Image
+                src="/image/work-from-home.png"
+                alt="Number five"
+                width={60}
+                height={60}
+                priority
+                />
+            </div>
+            <h2>
+              Back to Home <span>-&gt;</span>
+            </h2>
+            <p> <strong>AHORA</strong></p>
+            <p>Volver al Inicio</p>
+          </a>
 
         </div>
 
