@@ -17,7 +17,7 @@ export default function Home() {
             <Image
               src="/image/mern.png"
               alt="Vercel Logo"
-              className={styles.logoAutor}
+              className={styles.vercelLogo}
               width={170}
               height={70}
               priority
@@ -29,7 +29,7 @@ export default function Home() {
       <div className={styles.authorContainer}>
         <div className={`${styles.centerx} ${styles.circleContainer}`}>
           <Image
-            className={styles.logo}
+            className={styles.logoAutor}
             src="/image/autor.jpg"
             alt="Next.js Logo"
             width={240}
