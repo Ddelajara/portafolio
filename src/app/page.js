@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Daniel Rodrigo De la Jara Jimenez&nbsp;
+          Daniel R. De la Jara Jimenez&nbsp;
         </p>
         <div>
           <a
