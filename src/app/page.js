@@ -71,7 +71,7 @@ export default function Home() {
           <h2>
             Trayectoria
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>Conoce mi historia: Desarrollo, Consultoría, Liderazgo, Innovación.</p>
         </a>
 
         <a
@@ -83,7 +83,7 @@ export default function Home() {
           <h2>
             Proyectos
           </h2>
-          <p>Explore starter templates for Next.js.</p>
+          <p> Desarrollos Web, Transformación, Innovación.</p>
         </a>
 
         <a
@@ -93,10 +93,10 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Deploy <span>-&gt;</span>
+            Técnologia <span>-&gt;</span>
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Herramientas, framework, Base de Datos.
           </p>
         </a>
       </div>
