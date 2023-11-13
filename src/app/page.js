@@ -10,14 +10,14 @@ export default function Home() {
         </p>
         <div>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
               src="/image/mern.png"
               alt="Vercel Logo"
-              className={styles.vercelLogo}
+              className={styles.logoAutor}
               width={170}
               height={70}
               priority
@@ -63,9 +63,9 @@ export default function Home() {
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/trayectoria"
            className={`${styles.card} ${styles.cardBG2}`}
-          target="_blank"
+          target="_self"
           rel="noopener noreferrer"
         >
           <h2>

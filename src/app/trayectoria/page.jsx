@@ -29,7 +29,7 @@ const Trayectoria = () => {
 
         <div className={styles.grid}>
           <a
-            href="https://www.linkedin.com/in/daniel-de-la-jara-5b66a5155/"
+            href="#"
             className={styles.card_Center}
             target="_blank"
             rel="noopener noreferrer"
@@ -51,7 +51,7 @@ const Trayectoria = () => {
           </a>
   
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="#"
             className={styles.card_Center}
             target="_blank"
             rel="noopener noreferrer"
@@ -73,7 +73,7 @@ const Trayectoria = () => {
           </a>
   
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="#"
             className={styles.card_Center}
             target="_blank"
             rel="noopener noreferrer"
@@ -94,7 +94,7 @@ const Trayectoria = () => {
           </a>
   
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="#"
             className={styles.card_Center}
             target="_blank"
             rel="noopener noreferrer"
@@ -116,7 +116,7 @@ const Trayectoria = () => {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="#"
             className={styles.card_Center}
             target="_blank"
             rel="noopener noreferrer"
@@ -139,9 +139,9 @@ const Trayectoria = () => {
 
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="/"
             className={styles.card_Center}
-            target="_blank"
+            target="_self"
             rel="noopener noreferrer"
           >
             <div>

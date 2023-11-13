@@ -113,6 +113,11 @@
   position: relative;
   border-radius: 50%;
 }
+
+.logoAutor {
+  position: relative;
+  border-radius: 50%;
+}
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
