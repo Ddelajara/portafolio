@@ -93,7 +93,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Técnologia <span>-&gt;</span>
+            Técnologia
           </h2>
           <p>
             Herramientas, framework, Base de Datos.
