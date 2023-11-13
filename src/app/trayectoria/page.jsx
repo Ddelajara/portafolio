@@ -6,7 +6,7 @@ const Trayectoria = () => {
         <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Trayectoria&nbsp;
+            [Trayectoria]&nbsp;
           </p>
           <div>
             <a
