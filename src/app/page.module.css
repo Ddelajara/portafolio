@@ -35,8 +35,7 @@
   border: 1px solid rgba(var(--callout-border-rgb), 0.4);
   border-radius: var(--border-radius);
   font-size: xx-large;
-  color:darkblue;
-  
+    
 }
 
 .code {
