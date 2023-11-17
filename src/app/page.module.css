@@ -258,8 +258,8 @@
   }
 
   .ColorInvertido {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff);
-  }
+    color: #ffffff; /* Color invertido para el tema oscuro */
+   }
 }
 
 @keyframes rotate {
