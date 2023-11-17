@@ -38,7 +38,7 @@ const Proyectos = () =>{
                   className="h-6 w-6 text-white" // Clases para estilizar
                 />
               </div>
-              Aplicaciones de Escritorio
+              <div className="text-black dark:text-white">Aplicaciones de Escritorio</div>
             </dt>
             <dd className="mt-2 text-base leading-7 text-gray-600">aplicaciones con interfaces de usuario intuitivas , eficientes y funcionalidad robusta
             </dd>
@@ -55,7 +55,7 @@ const Proyectos = () =>{
                   className="h-6 w-6 text-white" // Clases para estilizar
                 />
                </div>
-              Aplicaciones WEB
+               <div className="text-black dark:text-white">Aplicaciones WEB</div>
             </dt>
             <dd class="mt-2 text-base leading-7 text-gray-600">Tecnologías como HTML, CSS, JavaScript, y frameworks modernos como React, Next js </dd>
           </div>
@@ -89,7 +89,7 @@ const Proyectos = () =>{
                   className="h-6 w-6 text-white" // Clases para estilizar
                 />
               </div>
-              Integraciones API
+              <div className="text-black dark:text-white">Integraciones API</div>
             </dt>
             <dd className="mt-2 text-base leading-7 text-gray-600">
               API Rest en entornos Node js, Express y Javascript.
