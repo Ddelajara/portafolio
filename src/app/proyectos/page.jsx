@@ -71,7 +71,7 @@ const Proyectos = () =>{
                   className="h-6 w-6 text-white" // Clases para estilizar
                 />
               </div>
-              <div className="vercelLogo"> Base de Datos</div>
+              <div className="ColorInvertido"> Base de Datos</div>
             </dt>
             <dd className="mt-2 text-base leading-7 text-gray-600">
               SQL Server, Oracle, Firebase, MongoDB. Querys DML, Procedimientos Almancenados, modelamiento.
@@ -96,10 +96,7 @@ const Proyectos = () =>{
             </dd>
           </div>
       </div>  
-  
- 
-
-      </main>
+     </main>
   
     )
 }

@@ -327,3 +327,13 @@
   line-height: 1.5;
   max-width: 30ch;
 }
+
+.ColorInvertido {
+  color: #000000; /* Color por defecto para el tema claro */
+}
+
+@media (prefers-color-scheme: dark) {
+  .ColorInvertido {
+    color: #ffffff; /* Color invertido para el tema oscuro */
+  }
+}
