@@ -67,13 +67,15 @@ const Proyectos = () =>{
           <div className="relative pl-16">
             <dt className="text-base font-semibold leading-7 text-gray-900">
               <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-green-300">
-                <Image 
-                  src="image/database-line-icon.svg"
-                  alt="Icono de Base de Datos"
-                  width={24}
-                  height={24}
-                  className="h-6 w-6 text-white"
-                />
+                <a className="h-6 w-6 text-white" href="/datos" target="_self" rel="noopener noreferrer">
+                  <Image 
+                    src="image/database-line-icon.svg"
+                    alt="Icono de Base de Datos"
+                    width={24}
+                    height={24}
+                    className="h-6 w-6 text-white"
+                  />
+                </a>
               </div>
               <div className="text-black dark:text-white">Base de Datos</div>
             </dt>
@@ -85,13 +87,15 @@ const Proyectos = () =>{
           <div className="relative pl-16">
             <dt className="text-base font-semibold leading-7 text-gray-900">
               <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-300">
-                <Image 
-                  src="image/rest-api-icon.svg" la carpeta public
-                  alt="Icono API"
-                  width={24}
-                  height={24}
-                  className="h-6 w-6 text-white"
-                />
+              <a className="h-6 w-6 text-white" href="/miApi" target="_self" rel="noopener noreferrer">
+                  <Image 
+                    src="image/rest-api-icon.svg" la carpeta public
+                    alt="Icono API"
+                    width={24}
+                    height={24}
+                    className="h-6 w-6 text-white"
+                  />
+               </a>
               </div>
               <div className="text-black dark:text-white">Integraciones API</div>
             </dt>
