@@ -89,7 +89,7 @@ export default function Home() {
         <a
           href="/tecno"
           className={`${styles.card} ${styles.cardBG4}`}
-          target="_blank"
+          target="_self"
           rel="noopener noreferrer"
         >
           <h2>
