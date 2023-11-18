@@ -87,7 +87,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/tecno"
           className={`${styles.card} ${styles.cardBG4}`}
           target="_blank"
           rel="noopener noreferrer"
@@ -96,7 +96,7 @@ export default function Home() {
             Técnologia
           </h2>
           <p>
-            Herramientas, framework, Base de Datos.
+            Frameworks, Certificaciones, Procesos.
           </p>
         </a>
       </div>
