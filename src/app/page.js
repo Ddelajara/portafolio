@@ -43,6 +43,17 @@ export default function Home() {
           Consultoria Servicios TI / Infraestructura / Desarrollo Web FullStack / Database
           </h3>
           <br></br>
+
+          <a
+            href="https://github.com/Ddelajara"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h5>
+              Accede a mi Github :)
+            </h5>
+          </a>
+          <br></br>
           <p>
           Ejecutivo gerencial del área TI, cuento con amplia experiencia en administración de infraestructura, soporte y desarrollo de aplicaciones.
           </p>
