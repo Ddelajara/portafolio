@@ -50,7 +50,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h5>
-              Accede a mi Github :)
+              Accede a mi Github
             </h5>
           </a>
           <br></br>
