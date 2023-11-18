@@ -30,6 +30,7 @@ const Proyectos = () =>{
         <div className="relative pl-16">
             <dt className="text-base font-semibold leading-7 text-gray-900">
               <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-red-400">
+              <a className="h-6 w-6 text-white" href="/desktop" target="_self" rel="noopener noreferrer">
               <Image 
                   src="image/outline-icon.svg" // Ruta relativa al archivo en la carpeta public
                   alt="Icono de Base de Datos" // Texto alternativo para accesibilidad
@@ -37,6 +38,7 @@ const Proyectos = () =>{
                   height={24} // Tamaño del alto
                   className="h-6 w-6 text-white" // Clases para estilizar
                 />
+                </a>
               </div>
               <div className="text-black dark:text-white">Aplicaciones de Escritorio</div>
             </dt>

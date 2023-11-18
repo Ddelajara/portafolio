@@ -51,6 +51,15 @@
   gap: 10px;
 }
 
+.gridOne {
+  display: grid;
+  grid-template-columns: 1fr; /* Una única columna que ocupa todo el ancho */
+  max-width: 100%;
+  width: var(--max-width);
+  gap: 10px;
+}
+
+
 .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
@@ -76,6 +85,25 @@
   line-height: 1.5;
   max-width: 30ch;
 }
+
+.Custom_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 4rem 0;
+  color: brown;
+}
+
+.custom_X {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Alinea los elementos en una columna */
+  max-width: 100%;
+  height: auto;
+}
+
 
 .center {
   display: flex;
@@ -335,4 +363,3 @@
 .ColorInvertido {
   color: #000000; /* Color por defecto para el tema claro */
 }
-
