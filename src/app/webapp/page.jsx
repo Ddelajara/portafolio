@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import styles from '../page.module.css'
 
-const Desktop = () =>{
+const WebApp = () =>{
     return (
         <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            [Aplicaciones de Escritorio]&nbsp;
+            [Aplicaciones de WEB]&nbsp;
           </p>
           <div>
             <a
@@ -32,13 +32,13 @@ const Desktop = () =>{
             <div className={styles.custom_X}>
                 <img
                     className="max-w-full h-auto"
-                    src="/image/desktop1.png"
+                    src="/image/web.png"
                     alt="Number one"
                     width={700}
                     height={500}
                     priority
                     />
-                <h4 className='Custom_center'>Desarrollo Software con Windows Forms y CSharp</h4>
+                <h4 className='Custom_center'>Diseño, ideas, componentes</h4>
             </div>
           </div>
 
@@ -46,7 +46,7 @@ const Desktop = () =>{
             <div className={styles.custom_X}>
                 <img
                     className="max-w-full h-auto"
-                    src="/image/desktop2.png"
+                    src="/image/web2.png"
                     alt="Number one"
                     width={700}
                     height={500}
@@ -60,13 +60,13 @@ const Desktop = () =>{
             <div className={styles.custom_X}>
                 <img
                     className="max-w-full h-auto"
-                    src="/image/desktop3.png"
+                    src="/image/web3.png"
                     alt="Number one"
                     width={700}
                     height={500}
                     priority
                     />
-                <h4 className='Custom_center'>Filtros, grillas y mantención de datos</h4>
+                <h4 className='Custom_center'>Formulario, mapas, Imagenes</h4>
             </div>
           </div>
 
@@ -74,13 +74,13 @@ const Desktop = () =>{
             <div className={styles.custom_X}>
                 <img
                     className="max-w-full h-auto"
-                    src="/image/desktop4.png"
+                    src="/image/web4.png"
                     alt="Number one"
                     width={700}
                     height={500}
                     priority
                     />
-                <h4 className='Custom_center'>Dashboard e Indicadores de Gestión</h4>
+                <h4 className='Custom_center'>Diseños Customizados</h4>
             </div>
           </div>
 
@@ -92,4 +92,4 @@ const Desktop = () =>{
    )
 }
 
-export default Desktop
+export default WebApp

@@ -25,18 +25,18 @@ const Proyectos = () =>{
             </a>
           </div>
         </div>
-  
+
       <div className={styles.grid}>
         <div className="relative pl-16">
             <dt className="text-base font-semibold leading-7 text-gray-900">
               <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-red-400">
               <a className="h-6 w-6 text-white" href="/desktop" target="_self" rel="noopener noreferrer">
               <Image 
-                  src="image/outline-icon.svg" // Ruta relativa al archivo en la carpeta public
-                  alt="Icono de Base de Datos" // Texto alternativo para accesibilidad
-                  width={24}  // Tamaño del ancho
-                  height={24} // Tamaño del alto
-                  className="h-6 w-6 text-white" // Clases para estilizar
+                  src="image/outline-icon.svg"
+                  alt="Icono de Base de Datos" 
+                  width={24}
+                  height={24}
+                  className="h-6 w-6 text-white"
                 />
                 </a>
               </div>
@@ -49,13 +49,15 @@ const Proyectos = () =>{
           <div class="relative pl-16">
             <dt class="text-base font-semibold leading-7 text-gray-900">
               <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-orange-300">
+              <a className="h-6 w-6 text-white" href="/webapp" target="_self" rel="noopener noreferrer">
               <Image 
-                  src="image/web-page.svg" // Ruta relativa al archivo en la carpeta public
-                  alt="Icono de Base de Datos" // Texto alternativo para accesibilidad
-                  width={24}  // Tamaño del ancho
-                  height={24} // Tamaño del alto
-                  className="h-6 w-6 text-white" // Clases para estilizar
+                  src="image/web-page.svg"
+                  alt="Icono de Base de Datos" 
+                  width={24} 
+                  height={24}
+                  className="h-6 w-6 text-white"
                 />
+               </a>
                </div>
                <div className="text-black dark:text-white">Aplicaciones WEB</div>
             </dt>
@@ -66,11 +68,11 @@ const Proyectos = () =>{
             <dt className="text-base font-semibold leading-7 text-gray-900">
               <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-green-300">
                 <Image 
-                  src="image/database-line-icon.svg" // Ruta relativa al archivo en la carpeta public
-                  alt="Icono de Base de Datos" // Texto alternativo para accesibilidad
-                  width={24}  // Tamaño del ancho
-                  height={24} // Tamaño del alto
-                  className="h-6 w-6 text-white" // Clases para estilizar
+                  src="image/database-line-icon.svg"
+                  alt="Icono de Base de Datos"
+                  width={24}
+                  height={24}
+                  className="h-6 w-6 text-white"
                 />
               </div>
               <div className="text-black dark:text-white">Base de Datos</div>
@@ -84,11 +86,11 @@ const Proyectos = () =>{
             <dt className="text-base font-semibold leading-7 text-gray-900">
               <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-300">
                 <Image 
-                  src="image/rest-api-icon.svg" // Ruta relativa al archivo en la carpeta public
-                  alt="Icono API" // Texto alternativo para accesibilidad
-                  width={24}  // Tamaño del ancho
-                  height={24} // Tamaño del alto
-                  className="h-6 w-6 text-white" // Clases para estilizar
+                  src="image/rest-api-icon.svg" la carpeta public
+                  alt="Icono API"
+                  width={24}
+                  height={24}
+                  className="h-6 w-6 text-white"
                 />
               </div>
               <div className="text-black dark:text-white">Integraciones API</div>
@@ -97,9 +99,33 @@ const Proyectos = () =>{
               API Rest en entornos Node js, Express y Javascript.
             </dd>
           </div>
+
+          <a
+            href="/"
+            className={styles.card_Center}
+            target="_self"
+            rel="noopener noreferrer"
+          >
+            <div>
+            <Image
+                src="/image/work-from-home.png"
+                alt="Number five"
+                width={60}
+                height={60}
+                priority
+                />
+            </div>
+            <h2>
+              Back to Home <span>-&gt;</span>
+            </h2>
+            <p> <strong>AHORA</strong></p>
+            <p>Volver al Inicio</p>
+          </a>
+
       </div>  
-     </main>
-  
+
+    </main>
+
     )
 }
 
